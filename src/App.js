@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
          {/* <Route exact path="/" component={Layout4} /> */}
-         <Route exact path="/" component={AntUILive} />
+         <Route path="/app" component={AntUILive} />
       </Router>
     );
   }
