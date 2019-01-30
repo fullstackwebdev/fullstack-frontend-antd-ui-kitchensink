@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "less": "^3.9.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
@@ -26,6 +27,7 @@
     "antd": "^3.13.0",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.10",
+    "less-loader": "^4.1.0",
     "react-app-rewired": "^2.0.2",
     "react-router-dom": "^4.3.1"
   }

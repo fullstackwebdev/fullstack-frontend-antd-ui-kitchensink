@@ -1,11 +1,12 @@
 import React from "react";
 import { Layout, Menu, Breadcrumb, Icon, Row, Col } from "antd";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "./index.css";
+import "./index.less";
 import SubMenu from "antd/lib/menu/SubMenu";
 
 import Content1 from "../../components/Content1";
 import Content2 from "../../components/Content2";
+import Dashboard from '../../components/Dashboard';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -121,9 +122,9 @@ const sideMenu = [
     name: "First Submenu",
     icon: "user",
     sub: [
-      { name: "Content1", link: "/app/content1" },
-      { name: "Content2", link: "/app/content2" },
-      { name: "Content3", link: "/app/content3" }
+      { name: "Content1", link: "content1" },
+      { name: "Content2", link: "content2" },
+      { name: "Content3", link: "content3" }
     ]
   },
   {
@@ -151,6 +152,11 @@ const sideMenu = [
 ];
 
 const routes = [
+  {
+    path: "/app",
+    exact: true,
+    main: Content1
+  },
   {
     path: "/app/content1",
     exact: true,

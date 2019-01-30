@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import Layout1 from './containers/Layout1';
-import Layout2 from './containers/Layout2';
-import Layout3 from './containers/Layout3';
-import Layout4 from './containers/Layout4';
 import AntUILive from './containers/AntUILive';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Login from './containers/Login';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 
 
 class App extends Component {
   render() {
     return (
       <Router>
+        <Switch>
          {/* <Route exact path="/" component={Layout4} /> */}
+         <Route exact path="/" component={Login} />
          <Route path="/app" component={AntUILive} />
+         </Switch>
       </Router>
     );
   }
