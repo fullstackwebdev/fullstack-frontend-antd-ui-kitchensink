@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+/* eslint-disable no-unused-vars */
+import React from "react";
 import { Button, Row, Form, Icon, Input } from "antd";
 import { Link } from 'react-router-dom'
 import './index.less'
@@ -9,20 +10,18 @@ const index = () => {
     <>
       <div className="form">
       <Row>
-        <div className="asdf">
+        <div className="fullstack">
             <img alt="logo" src="/fswd-crop.png" />
         </div>
-        <div className="asdf">
+        <div className="fullstack">
             <span> Fullstack Demo </span>
         </div>
-        
     </Row>
-    
         <form>
             <Row>
             <Form.Item hasFeedback>
                 <Input
-                                        placeholder="Username"
+                    placeholder="Username"
             />
             </Form.Item>
             <Form.Item hasFeedback>
@@ -38,7 +37,6 @@ const index = () => {
                 <Link to='/app'>
                 <Button
                     type="primary"
-                   
                     // loading={loading.effects.login}
                     >
                     Sign In

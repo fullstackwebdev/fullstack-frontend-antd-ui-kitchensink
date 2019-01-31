@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import AntUILive from './containers/AntUILive';
+import Home from './containers/Home';
 import Login from './containers/Login';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -12,7 +10,7 @@ class App extends Component {
         <Switch>
          {/* <Route exact path="/" component={Layout4} /> */}
          <Route exact path="/" component={Login} />
-         <Route path="/app" component={AntUILive} />
+         <Route path="/app" component={Home} />
          </Switch>
       </Router>
     );

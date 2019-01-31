@@ -1,9 +1,30 @@
 import React from "react";
-import { Layout, Menu, Breadcrumb, Icon, Row, Col } from "antd";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  Layout,
+  Breadcrumb,
+  Row,
+  Col
+} from "antd";
+import * as Tables from "./../../components/Tables";
 import "./index.css";
-import SubMenu from "antd/lib/menu/SubMenu";
-const { Header, Footer, Sider, Content } = Layout;
+
+const { Content } = Layout;
+
+const Form1 = () => {
+  return (
+    <>
+      <Row gutter={16}>
+        <Col span={20}>
+        <Tables.BasicUsage />
+          {/* <Tables. /> */}
+        </Col>
+        <Col span={8}>
+          {/* <Forms.FormLogin /> */}
+        </Col>
+      </Row>
+    </>
+  );
+};
 
 const MyContent = ({ breadcrumbItems }) => {
   // const breadcrumbItems = ["Home", "List", "App"];
@@ -13,7 +34,7 @@ const MyContent = ({ breadcrumbItems }) => {
       {/* Breadcrumb */}
       <Breadcrumb style={{ margin: "16px 0" }}>
         {Items.map((item, index) => (
-          <Breadcrumb.Item>{item}</Breadcrumb.Item>
+          <Breadcrumb.Item key={index}>{item}</Breadcrumb.Item>
         ))}
       </Breadcrumb>
 
@@ -27,25 +48,14 @@ const MyContent = ({ breadcrumbItems }) => {
         }}
       >
         <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
-        <div className="gutter-example">
-          <Row gutter={24}>
-            <Col className="gutter-row" span={12}>
-              <div className="gutter-box">col-6</div>
-            </Col>
-            <Col className="gutter-row" span={12}>
-              <div className="gutter-box">col-6</div>
-            </Col>
-           
-          </Row>
+          <Form1 />
         </div>
-        </div>
-   
       </Content>
     </>
   );
 };
 
-const breadcrumbItems = ["Home", "List", "New Content"];
+const breadcrumbItems = ["Fullstack", "Forms", "Examples"];
 
 const index = () => {
   return (
