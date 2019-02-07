@@ -3,7 +3,7 @@ import ConfigProvider from './ConfigProvider';
 import Customized from './Customized';
 
 
-export {
+export default {
     Basic,
     ConfigProvider,
     Customized

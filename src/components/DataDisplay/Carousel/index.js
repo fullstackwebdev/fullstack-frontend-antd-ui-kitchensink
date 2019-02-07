@@ -3,7 +3,7 @@ import FadeIn from './FadeIn';
 import ScrollAutomatically from './ScrollAutomatically'
 import Vertical from './Vertical'
 
-export { 
+export default { 
     Basic,
     FadeIn,
     ScrollAutomatically,

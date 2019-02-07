@@ -3,7 +3,7 @@ import Basic from './Basic';
 import CountDown from './CountDown';
 import InCard from './InCard';
 
-export {
+export default {
     AddUnitPrefix,
     Basic,
     CountDown,

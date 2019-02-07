@@ -35,8 +35,5 @@ class Autoset extends React.Component {
   }
 }
 
-ReactDOM.render(<Autoset />,
-  mountNode);
-
 
 export default Autoset

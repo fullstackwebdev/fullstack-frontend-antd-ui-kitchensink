@@ -93,8 +93,6 @@ class InfiniteListExample extends React.Component {
     }
 }
 
-ReactDOM.render(<InfiniteListExample />, mountNode);
-
 
 export default InfiniteListExample
 

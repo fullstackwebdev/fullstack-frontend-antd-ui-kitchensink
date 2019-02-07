@@ -6,7 +6,7 @@ import LoadDataAsync from './LoadDataAsync'
 import SearchableTree from './SearchableTree'
 import TreeWithLine from './TreeWithLine'
 
-export {
+export default {
     Basic,
     BasicControlled,
     Draggable,

@@ -11,7 +11,7 @@ import SlideOrder from './SlideOrder'
 import TabPositions from './TabPositions'
 import TabsWDisable from './TabsWDisable'
 
-export {
+export default {
     AddTab,
     Basic,
     CardTab,

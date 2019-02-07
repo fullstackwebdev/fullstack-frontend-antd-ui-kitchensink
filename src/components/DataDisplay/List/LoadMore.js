@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid, jsx-a11y/anchor-has-content */
+
 import React from 'react'
 
 import {
@@ -93,8 +95,6 @@ class LoadMoreList extends React.Component {
         );
     }
 }
-
-ReactDOM.render(<LoadMoreList />, mountNode);
 
 
 export default LoadMoreList

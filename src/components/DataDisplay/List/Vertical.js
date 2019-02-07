@@ -20,8 +20,10 @@ const IconText = ({ type, text }) => (
   </span>
 );
 
-ReactDOM.render(
-  <List
+
+const Vertical = () => {
+  return (
+    <List
     itemLayout="vertical"
     size="large"
     pagination={{
@@ -46,16 +48,7 @@ ReactDOM.render(
         {item.content}
       </List.Item>
     )}
-  />,
-  mountNode
-);
-
-
-const Vertical = () => {
-  return (
-    <div>
-      
-    </div>
+  />
   )
 }
 

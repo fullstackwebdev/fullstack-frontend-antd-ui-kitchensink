@@ -136,7 +136,7 @@ class DraggableTabs extends React.Component {
     );
   }
 }
-const DraggableTabs = () => {
+const DraggableTabsA = () => {
   return (
     <DraggableTabs>
     <TabPane tab="tab 1" key="1">
@@ -152,4 +152,4 @@ const DraggableTabs = () => {
   )
 }
 
-export default DraggableTabs
+export default DraggableTabsA

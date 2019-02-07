@@ -2,7 +2,7 @@ import AlignEdge from './AlignEdge';
 import Basic from './Basic';
 import Placement from './Placement'
 
-export {
+export default {
     AlignEdge,
     Basic,
     Placement

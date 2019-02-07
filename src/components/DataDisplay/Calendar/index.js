@@ -4,7 +4,7 @@ import NestedInCard from './NestedInCard';
 import NoticeCalendar from './NoticeCalendar';
 import SelectableCalendar from './SelectableCalendar';
 
-export {
+export default {
     SelectableCalendar,
     NoticeCalendar,
     NestedInCard,

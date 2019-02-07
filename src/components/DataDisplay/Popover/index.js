@@ -5,7 +5,7 @@ import Hover from './Hover';
 import HoverWithClick from './HoverWithClick'
 import Placement from './Placement'
 
-export {
+export default {
     ArrowPointing,
     Basic,
     ControllingDialog,

@@ -139,8 +139,6 @@ class VirtualizedExample extends React.Component {
     }
 }
 
-ReactDOM.render(<VirtualizedExample />, mountNode);
-
 
 
 export default VirtualizedExample

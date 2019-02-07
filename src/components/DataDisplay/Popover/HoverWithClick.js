@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid, jsx-a11y/anchor-has-content */
+
 import React from 'react'
 
 import { Popover, Button } from 'antd';
@@ -67,8 +69,6 @@ class App extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<App />, mountNode);
 
 
 export default App

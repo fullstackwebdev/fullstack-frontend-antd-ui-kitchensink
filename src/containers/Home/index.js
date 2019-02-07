@@ -7,6 +7,7 @@ import SubMenu from "antd/lib/menu/SubMenu";
 
 import Forms from './../../containers/FormsContainer';
 import Tables from './../../containers/TablesContainer';
+import DataDisplay from './../DataDisplay';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -131,6 +132,13 @@ const sideMenu = [
     sub : [
       { name: "Examples", link: "tables" },
     ]
+  },
+  {
+    name: 'Components',
+    icon: 'laptop',
+    sub : [
+      { name: "DataDisplay", link: "dataDisplay" },
+    ]
   }
 ];
 
@@ -148,6 +156,11 @@ const routes = [
     path: "/app/tables",
     exact: true,
     main: Tables
+  },
+  {
+    path: "/app/dataDisplay",
+    exact: true,
+    main: DataDisplay
   }
 ];
 

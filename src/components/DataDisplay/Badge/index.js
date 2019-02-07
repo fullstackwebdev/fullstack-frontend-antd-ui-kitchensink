@@ -1,3 +1,4 @@
 import Basic from './Basic'
+import Demo from './Demo';
 
-export { Basic }
+export default { Basic, Demo }

@@ -5,7 +5,7 @@ import Custom from './Custom'
 import RightAlternate from './RightAlternate'
 import ToggleReverse from './ToggleReverse'
 
-export {
+export default {
     AlternativeTimeline,
     Basic,
     Color,

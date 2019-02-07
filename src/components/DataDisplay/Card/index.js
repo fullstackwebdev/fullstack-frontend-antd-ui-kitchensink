@@ -8,7 +8,7 @@ import LoadingCard from './LoadingCard';
 import NoBorder from './NoBorder';
 import WithTabs from './WithTabs';
 
-export {
+export default {
     Basic,
     CardColumn,
     ConfigurableContent,

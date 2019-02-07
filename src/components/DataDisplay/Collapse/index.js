@@ -5,7 +5,7 @@ import CustomPanel from './CustomPanel';
 import Nested from './Nested';
 import NoArrow from './NoArrow';
 
-export {
+export default {
     Accordion,
     Basic,
     Borderless,
